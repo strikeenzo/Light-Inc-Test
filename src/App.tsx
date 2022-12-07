@@ -1,8 +1,14 @@
 import React from "react";
 import "./App.css";
+import Invoice from "./container/Invoice";
+import Layout from "./container/Layout";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <Layout>
+      <Invoice />
+    </Layout>
+  );
 }
 
 export default App;
