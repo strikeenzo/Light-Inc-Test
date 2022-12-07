@@ -32,14 +32,14 @@ const Header = () => {
       </div>
       <div className="flex">
         <div className="flex items-center mr-[32px]">
-          <div className="flex items-center flex-row w-[402px] h-[40px] bg-[#000]/[.2] rounded-[4px] px-[10px] py-[16px] gap-[8px]">
-            <SearchIcon className="opacity-[.5] font-normal text-[14px] leading-[20px]" />
+          <div className="flex items-center flex-row w-[402px] h-[40px] bg-[#000]/[.2] rounded-[4px] px-[16px] py-[10px] gap-[8px] shadow-[0_2px_2px_rgba(0,0,0,0.2)]">
+            <SearchIcon className="opacity-[.5] font-medium text-[14px] leading-[20px]" />
             <input
               type="text"
               className="text-[#FAFAF9]/[.5] bg-[#000]/[0] placeholder-[#FAFAF9]/[.5] border-0 outline-0 w-[80%]"
               placeholder="Ask Ray..."
             />
-            <span className="font-normal text-[12px] leading-[16px] text-[#FAFAF9]/[.5]">
+            <span className="font-medium text-[12px] leading-[16px] text-[#FAFAF9]/[.5]">
               CMD+K
             </span>
           </div>
