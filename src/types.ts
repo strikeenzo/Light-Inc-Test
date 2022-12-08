@@ -31,3 +31,7 @@ export interface InvoiceItemProps {
 export interface InvoiceTableProps {
   data: InvoiceItemProps[];
 }
+
+export interface InvoiceModalProps {
+  setShowModal: (value: boolean) => void;
+}

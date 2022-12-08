@@ -1,20 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import { ReactComponent as Dot } from "../../assets/dot.svg";
 import { ReactComponent as SearchIcon } from "../../assets/icons/search_black.svg";
 import { ReactComponent as PlusIcon } from "../../assets/icons/plus.svg";
 import { ReactComponent as InvoiceIcon } from "../../assets/icons/invoice.svg";
 import InvoiceTable from "../../components/InvoiceTable";
 import Paginator from "../../components/Paginator";
+import InvoiceModal from "../../components/InvoiceModal/index";
 const { mockData } = require("../../mock.json");
 
 const Invoice = () => {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <>
       <div className="flex justify-between mt-[40px]">
         <h1 className="font-medium text-[24px] leading-[32px] text-[#292524]">
           Invoices
         </h1>
-        <button className="font-medium text-[14px] leading-[20px] px-[12px] py-[6px] border-[1px] border-[#E7E5E4] rounded-[4px] drop-shadow-[0_1px_0px_rgba(0,0,0,0.04)] box-border">
+        <button
+          className="font-medium text-[14px] leading-[20px] px-[12px] py-[6px] border-[1px] border-[#E7E5E4] rounded-[4px] drop-shadow-[0_1px_0px_rgba(0,0,0,0.04)] box-border"
+          onClick={() => setShowModal(true)}
+        >
           New Invoices
         </button>
       </div>
@@ -80,7 +86,7 @@ const Invoice = () => {
             </select>
           </div>
         </div>
-        {true ? <></> : null}
+        {showModal ? <InvoiceModal setShowModal={setShowModal} /> : null}
       </div>
     </>
   );
