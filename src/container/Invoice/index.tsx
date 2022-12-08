@@ -2,6 +2,10 @@ import React from "react";
 import { ReactComponent as Dot } from "../../assets/dot.svg";
 import { ReactComponent as SearchIcon } from "../../assets/icons/search_black.svg";
 import { ReactComponent as PlusIcon } from "../../assets/icons/plus.svg";
+import { ReactComponent as InvoiceIcon } from "../../assets/icons/invoice.svg";
+import InvoiceTable from "../../components/InvoiceTable";
+import Paginator from "../../components/Paginator";
+const { mockData } = require("../../mock.json");
 
 const Invoice = () => {
   return (
@@ -54,7 +58,29 @@ const Invoice = () => {
               Add filter
             </button>
           </div>
+          <InvoiceTable data={mockData} />
         </div>
+        <div className="flex justify-between mt-[20px]">
+          <div className="flex items-center">
+            <InvoiceIcon />
+            <div className="font-medium text-[12px] leading-[16px] ml-[10px]">
+              <p className="text-[#000]">Send or forward invoices to</p>
+              <span className="text-[#EA580C]">company@inbox.light.inc</span>
+            </div>
+          </div>
+          <div className="flex items-center ml-[20px]">
+            <Paginator />
+            <select className="border-[1px] border-[#E7E5E4] rounded-[4px] px-[16px] py-[10px] font-normal text-[14px] text-[#44403C] leading-[20px]">
+              <option
+                value="50"
+                className="font-normal text-[14px] text-[#44403C] leading-[20px]"
+              >
+                50/page
+              </option>
+            </select>
+          </div>
+        </div>
+        {true ? <></> : null}
       </div>
     </>
   );

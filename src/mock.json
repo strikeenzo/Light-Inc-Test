@@ -1,0 +1,323 @@
+{
+  "mockData": [
+    {
+      "id": 0,
+      "vendor": {
+        "name": "Dixa",
+        "image": "/assets/dixa.png",
+        "checked": false
+      },
+      "description": "Subscription for Sales CRM",
+      "status": {
+        "type": "scanned",
+        "description": "Scanned • 2 issues"
+      },
+      "stage": {
+        "color": "#D97706",
+        "time": "4 d 21 h"
+      },
+      "approver": {
+        "name": "Not set"
+      },
+      "paym": {
+        "time": "5/19/12"
+      },
+      "paid": 779.58
+    },
+    {
+      "id": 1,
+      "vendor": {
+        "name": "Amazon AWS",
+        "image": "/assets/amazon.png",
+        "checked": true
+      },
+      "description": "App hosting for Q3",
+      "status": {
+        "type": "scanned",
+        "description": "Scanned"
+      },
+      "stage": {
+        "color": "#44403C",
+        "time": "1 d 21 h"
+      },
+      "approver": {
+        "name": "Not set"
+      },
+      "paym": {
+        "time": "5/19/12"
+      },
+      "paid": 779.58
+    },
+    {
+      "id": 2,
+      "vendor": {
+        "name": "Missing",
+        "image": "/assets/missing.png",
+        "checked": false,
+        "missing": true
+      },
+      "description": "Creative tool needed for graphics in marketing team",
+      "status": {
+        "type": "scanned",
+        "description": "Scanned • 2 issues"
+      },
+      "stage": {
+        "color": "#44403C",
+        "time": "15  h"
+      },
+      "approver": {
+        "name": "Not set"
+      },
+      "paym": {
+        "time": "5/19/12"
+      },
+      "paid": 779.58
+    },
+    {
+      "id": 3,
+      "vendor": {
+        "name": "Oracle",
+        "image": "/assets/missing.png",
+        "checked": false
+      },
+      "description": "Analytics tool subscription",
+      "status": {
+        "type": "scanned",
+        "description": "Scanned • 2 issues"
+      },
+      "stage": {
+        "color": "#44403C",
+        "time": "2 d 5 h"
+      },
+      "approver": {
+        "name": "Not set"
+      },
+      "paym": {
+        "time": "5/19/12"
+      },
+      "paid": 779.58
+    },
+    {
+      "id": 4,
+      "vendor": {
+        "name": "Twillio",
+        "image": "/assets/twillio.png",
+        "checked": true
+      },
+      "description": "HR tool",
+      "status": {
+        "type": "scanned",
+        "description": "Scanned"
+      },
+      "stage": {
+        "color": "#44403C",
+        "time": "1 d 2 h"
+      },
+      "approver": {
+        "name": "Not set"
+      },
+      "paym": {
+        "time": "5/19/12"
+      },
+      "paid": 779.58
+    },
+    {
+      "id": 5,
+      "vendor": {
+        "name": "Hopin",
+        "image": "/assets/missing.png",
+        "checked": false
+      },
+      "description": "API service used for notofication services",
+      "status": {
+        "type": "scanned",
+        "description": "Scanned"
+      },
+      "stage": {
+        "color": "#44403C",
+        "time": "11 d 6 h"
+      },
+      "approver": {
+        "name": "Not set"
+      },
+      "paym": {
+        "time": "5/19/12"
+      },
+      "paid": 779.58
+    },
+    {
+      "id": 6,
+      "vendor": {
+        "name": "DocuSign",
+        "image": "/assets/docuSign.png",
+        "checked": true
+      },
+      "description": "online event tool for marketing event",
+      "status": {
+        "type": "scanned",
+        "description": "Scanned"
+      },
+      "stage": {
+        "color": "#44403C",
+        "time": "3 d 21 h"
+      },
+      "approver": {
+        "name": "Not set"
+      },
+      "paym": {
+        "time": "5/19/12"
+      },
+      "paid": 779.58
+    },
+    {
+      "id": 7,
+      "vendor": {
+        "name": "Chargebee",
+        "image": "/assets/missing.png",
+        "checked": false
+      },
+      "description": "Recurring subs for our signatures",
+      "status": {
+        "type": "pending",
+        "description": "Pending"
+      },
+      "stage": {
+        "color": "#D97706",
+        "time": "5 d 17 h"
+      },
+      "approver": {
+        "name": "Darlene Robertson",
+        "image": "/assets/avatar.png",
+        "button": {
+          "type": "bell"
+        }
+      },
+      "paym": {
+        "time": "5/19/12"
+      },
+      "paid": 779.58
+    },
+    {
+      "id": 8,
+      "vendor": {
+        "name": "Mailchimp",
+        "image": "/assets/missing.png",
+        "checked": false
+      },
+      "description": "Payment providor",
+      "status": {
+        "type": "pending",
+        "description": "Pending"
+      },
+      "stage": {
+        "color": "#EA580C",
+        "time": "11 d 15 h"
+      },
+      "approver": {
+        "name": "Darlene Robertson",
+        "image": "/assets/avatar.png",
+        "button": {
+          "type": "reassign"
+        }
+      },
+      "paym": {
+        "time": "5/19/12"
+      },
+      "paid": 779.58
+    },
+    {
+      "id": 9,
+      "vendor": {
+        "name": "Mixpanel",
+        "image": "/assets/mixpanel.png",
+        "checked": true
+      },
+      "description": "Newsletter and landing page subscription",
+      "status": {
+        "type": "scanned",
+        "description": "Scanned"
+      },
+      "stage": {
+        "color": "#44403C",
+        "time": "2 d 6 h"
+      },
+      "approver": {
+        "name": "Not set"
+      },
+      "paym": {
+        "time": "5/19/12"
+      },
+      "paid": 779.58
+    },
+    {
+      "id": 10,
+      "vendor": {
+        "name": "HotJar",
+        "image": "/assets/missing.png"
+      },
+      "description": "Web analytics tool for marketing team",
+      "status": {
+        "type": "scanned",
+        "description": "Scanned"
+      },
+      "stage": {
+        "color": "#D97706",
+        "time": "5 d 2 h"
+      },
+      "approver": {
+        "name": "Not set"
+      },
+      "paym": {
+        "time": "5/19/12"
+      },
+      "paid": 779.58
+    },
+    {
+      "id": 11,
+      "vendor": {
+        "name": "Forecast",
+        "image": "/assets/forecast.png",
+        "checked": true
+      },
+      "description": "project mgmt tool for tech team",
+      "status": {
+        "type": "scanned",
+        "description": "Scanned"
+      },
+      "stage": {
+        "color": "#D97706",
+        "time": "4 d 16 h"
+      },
+      "approver": {
+        "name": "Not set"
+      },
+      "paym": {
+        "time": "5/19/12"
+      },
+      "paid": 779.58
+    },
+    {
+      "id": 12,
+      "vendor": {
+        "name": "HubSpot",
+        "image": "/assets/missing.png"
+      },
+      "description": "sales tool",
+      "status": {
+        "type": "scanned",
+        "description": "Scanned"
+      },
+      "stage": {
+        "color": "#44403C",
+        "time": "1 d 22 h"
+      },
+      "approver": {
+        "name": "Not set"
+      },
+      "paym": {
+        "time": "5/19/12"
+      },
+      "paid": 779.58
+    }
+  ]
+}

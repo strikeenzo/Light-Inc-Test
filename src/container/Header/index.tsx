@@ -4,7 +4,7 @@ import { ReactComponent as SearchIcon } from "../../assets/icons/search.svg";
 
 const Header = () => {
   return (
-    <div className="px-[24px] bg-[#292524] h-[52px] flex justify-between">
+    <div className="px-[24px] bg-[#292524] h-[52px] flex justify-between w-[100%]">
       <div className="flex items-center">
         <div className="h-[36px] w-[36px] rounded-[4px] bg-[#FFFFFF] opacity-[.2]"></div>
         <button className="text-[18px] leading-[20px] font-medium text-[#ffffff] px-[21.33px] h-[100%] flex items-center">
