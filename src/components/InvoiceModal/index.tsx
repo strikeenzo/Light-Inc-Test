@@ -15,25 +15,25 @@ const InvoiceModal: React.FC<InvoiceModalProps> = (props): JSX.Element => {
             Invoice #123456
           </h1>
           <div className="flex items-center">
-            <button className="text-[14px] leading-[20px] font-medium text-[#fff] px-[12px] py-[10px] bg-[#292524] rounded-[4px]">
+            <button className="text-[14px] leading-[20px] font-medium text-[#fff] px-[12px] py-[10px] bg-[#292524] rounded-[4px] hover:text-gray-300 active:text-gray-400">
               Submit for approval
             </button>
-            <button className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-[#E7E5E4] rounded-[4px] ml-[8px]">
+            <button className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-[#E7E5E4] rounded-[4px] ml-[8px] hover:border-[#0284C7] hover:bg-gray-100 active:bg-gray-200">
               <TrashIcon />
             </button>
             <div className="flex ml-[24px] items-center">
-              <button className="w-[32px] h-[40px] flex justify-center items-center border-[1px] border-[#E7E5E4] rounded-[4px]">
+              <button className="w-[32px] h-[40px] flex justify-center items-center border-[1px] border-[#E7E5E4] rounded-[4px] hover:border-[#0284C7] hover:bg-gray-100 active:bg-gray-200">
                 <ArrowLeft />
               </button>
               <p className="font-medium text-[14px] leading-[20px] text-[#A8A29E] w-[40px] text-center">
                 1/12
               </p>
-              <button className="w-[32px] h-[40px] flex justify-center items-center border-[1px] border-[#E7E5E4] rounded-[4px]">
+              <button className="w-[32px] h-[40px] flex justify-center items-center border-[1px] border-[#E7E5E4] rounded-[4px] hover:border-[#0284C7] hover:bg-gray-100 active:bg-gray-200">
                 <ArrowRight />
               </button>
             </div>
             <button
-              className="w-[40px] h-[40px] flex justify-center items-center border-[1px] bg-[#F5F5F4] rounded-[4px] ml-[24px]"
+              className="w-[40px] h-[40px] flex justify-center items-center border-[1px] bg-[#F5F5F4] rounded-[4px] ml-[24px] hover:border-[#0284C7] hover:bg-gray-100 active:bg-gray-200"
               onClick={() => props.setShowModal(false)}
             >
               <CrossIcon />
@@ -43,10 +43,16 @@ const InvoiceModal: React.FC<InvoiceModalProps> = (props): JSX.Element => {
         <div className="max-h-full flex overflow-y-auto">
           <aside className="w-[27.49%] px-[24px]">
             <div className="h-[52px] flex items-center">
-              <a className="font-medium text-[14px] leading-[20px] py-[15px] border-b-[1px] border-[#1C1917]">
+              <a
+                href="#"
+                className="font-medium text-[14px] leading-[20px] py-[15px] border-b-[1px] border-[#1C1917]"
+              >
                 Details
               </a>
-              <a className="font-medium text-[14px] leading-[20px] py-[15px] text-[#78716C] ml-[16px]">
+              <a
+                href="#"
+                className="font-medium text-[14px] leading-[20px] py-[15px] text-[#78716C] ml-[16px] hover:text-[inherit] hover:border-b-[1px] hover:border-[#1C1917]"
+              >
                 History
               </a>
             </div>

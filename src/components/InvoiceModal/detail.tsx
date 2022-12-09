@@ -18,9 +18,7 @@ const Detail = () => {
             Oracle
           </span>
           <div className="text-[#78716C] text-[12px] leading-[20px] font-normal">
-            <a href="" className="underline">
-              oracle.com
-            </a>
+            <a className="underline">oracle.com</a>
             <span>·billing@oracle.com</span>
           </div>
         </div>
@@ -208,43 +206,45 @@ const Detail = () => {
         </button>
       </section>
       <section className="mt-[26px]">
-        <h2 className="font-medium text-[16px] leading-[20px] text-[#292524]">
+        <h2 className="font-medium text-[16px] leading-[20px] text-[#292524] mb-[16px]">
           Accounting details
         </h2>
         <table className="font-normal text-[14px] leading-[20px] text-[#44403C] w-full">
-          <tr className="w-full">
-            <td className="border-[1px] border-[#E7E5E4] w-[74%] px-[16px] py-[8px]">
-              <p>MacBook Pro 16/2.8/Tim</p>
-              <p className="font-medium text-[12px] leading-[16px] text-[#78716C]">
-                IT & Technology
-              </p>
-            </td>
-            <td className="border-[1px] border-[#E7E5E4] w-[26%] px-[16px] py-[8px]">
-              <p className="text-end">2,199.00</p>
-            </td>
-          </tr>
-          <tr className="w-full">
-            <td className="border-[1px] border-[#E7E5E4] w-[74%] px-[16px] py-[8px]">
-              <p>Magic Keyboard DK</p>
-              <p className="font-medium text-[12px] leading-[16px] text-[#78716C]">
-                IT & Technology
-              </p>
-            </td>
-            <td className="border-[1px] border-[#E7E5E4] w-[26%] px-[16px] py-[8px]">
-              <p className="text-end">295.00</p>
-            </td>
-          </tr>
-          <tr className="w-full">
-            <td className="border-[1px] border-[#E7E5E4] w-[74%] px-[16px] py-[8px]">
-              <p>Magic Trackpad DK</p>
-              <p className="font-medium text-[12px] leading-[16px] text-[#78716C]">
-                IT & Technology
-              </p>
-            </td>
-            <td className="border-[1px] border-[#E7E5E4] w-[26%] px-[16px] py-[8px]">
-              <p className="text-end">199.00</p>
-            </td>
-          </tr>
+          <tbody>
+            <tr className="w-full">
+              <td className="border-[1px] border-[#E7E5E4] w-[74%] px-[16px] py-[8px]">
+                <p>MacBook Pro 16/2.8/Tim</p>
+                <p className="font-medium text-[12px] leading-[16px] text-[#78716C]">
+                  IT & Technology
+                </p>
+              </td>
+              <td className="border-[1px] border-[#E7E5E4] w-[26%] px-[16px] py-[8px]">
+                <p className="text-end">2,199.00</p>
+              </td>
+            </tr>
+            <tr className="w-full">
+              <td className="border-[1px] border-[#E7E5E4] w-[74%] px-[16px] py-[8px]">
+                <p>Magic Keyboard DK</p>
+                <p className="font-medium text-[12px] leading-[16px] text-[#78716C]">
+                  IT & Technology
+                </p>
+              </td>
+              <td className="border-[1px] border-[#E7E5E4] w-[26%] px-[16px] py-[8px]">
+                <p className="text-end">295.00</p>
+              </td>
+            </tr>
+            <tr className="w-full">
+              <td className="border-[1px] border-[#E7E5E4] w-[74%] px-[16px] py-[8px]">
+                <p>Magic Trackpad DK</p>
+                <p className="font-medium text-[12px] leading-[16px] text-[#78716C]">
+                  IT & Technology
+                </p>
+              </td>
+              <td className="border-[1px] border-[#E7E5E4] w-[26%] px-[16px] py-[8px]">
+                <p className="text-end">199.00</p>
+              </td>
+            </tr>
+          </tbody>
         </table>
       </section>
     </>
