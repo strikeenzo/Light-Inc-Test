@@ -3,7 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      fontFamily: {},
+      fontFamily: {
+        "custom-font": "Sans",
+      },
     },
   },
   plugins: [],

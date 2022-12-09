@@ -2,6 +2,8 @@
 
 This is the testing project.
 
+React + TypeScript + Tailwind + ESLint + Prettier
+
 ## `yarn install`
 
 ## `yarn test`

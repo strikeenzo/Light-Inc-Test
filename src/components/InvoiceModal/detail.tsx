@@ -45,7 +45,7 @@ const Detail = () => {
               To be paid
             </p>
             <div>
-              <span className="text-[#292524] text-[24px] leading-[32px] font-[medium]">
+              <span className="text-[#292524] text-[24px] leading-[32px] font-medium">
                 32.159.00
               </span>
               <span className="text-[#78716C] text-[12px] leading-[16px] tracking-[0.01em] ml-[5px]">
@@ -65,7 +65,7 @@ const Detail = () => {
             <p className="font-medium text-[#78716C] text-[12px] text-start leading-[16px]">
               Payment date
             </p>
-            <p className="text-[#0284C7] text-[14px] font-[medium] text-start leading-[20px]">
+            <p className="text-[#0284C7] text-[14px] font-medium text-start leading-[20px]">
               Today
             </p>
           </div>
@@ -136,7 +136,7 @@ const Detail = () => {
             <p className="font-medium text-[#78716C] text-[12px] leading-[16px] text-start">
               Cost center
             </p>
-            <p className="text-[#292524] text-[14px] leading-[20px] font-[medium] text-start">
+            <p className="text-[#292524] text-[14px] leading-[20px] font-medium text-start">
               Marketing
             </p>
           </div>
@@ -148,7 +148,7 @@ const Detail = () => {
               <p className="font-medium text-[#78716C] text-[12px] leading-[16px] text-start">
                 Entity
               </p>
-              <p className="text-[#292524] text-[14px] leading-[20px] font-[medium] text-start">
+              <p className="text-[#292524] text-[14px] leading-[20px] font-medium text-start">
                 DK-company
               </p>
             </div>
@@ -159,7 +159,7 @@ const Detail = () => {
               <p className="font-medium text-[#78716C] text-[12px] leading-[16px] text-start">
                 Sync to Category
               </p>
-              <p className="text-[#292524] text-[14px] leading-[20px] font-[medium] text-start">
+              <p className="text-[#292524] text-[14px] leading-[20px] font-medium text-start">
                 IT & Technology
               </p>
             </div>
@@ -172,7 +172,7 @@ const Detail = () => {
               <p className="font-medium text-[#78716C] text-[12px] leading-[16px] text-start">
                 Due date
               </p>
-              <p className="text-[#292524] text-[14px] leading-[20px] font-[medium] text-start">
+              <p className="text-[#292524] text-[14px] leading-[20px] font-medium text-start">
                 22/11/2022
               </p>
             </div>
@@ -183,7 +183,7 @@ const Detail = () => {
               <p className="font-medium text-[#78716C] text-[12px] leading-[16px] text-start">
                 Invoice date
               </p>
-              <p className="text-[#292524] text-[14px] leading-[20px] font-[medium] text-start">
+              <p className="text-[#292524] text-[14px] leading-[20px] font-medium text-start">
                 2/11/2022
               </p>
             </div>
@@ -193,7 +193,7 @@ const Detail = () => {
         <button className="w-[100%] h-[52px] border-[1px] border-[#E7E5E4] rounded-[4px] px-[16px] py-[8px] flex justify-between items-center mt-[24px]">
           <div className="flex items-center">
             <ListCheckIcon />
-            <p className="text-[#292524] text-[14px] leading-[20px] font-[medium] text-start ml-[10px]">
+            <p className="text-[#292524] text-[14px] leading-[20px] font-medium text-start ml-[10px]">
               Approvers
             </p>
           </div>
